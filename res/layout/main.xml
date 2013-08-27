@@ -5,10 +5,11 @@
               android:layout_height="fill_parent"
         >
 
-    <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Hello World, CompassView"
-            />
+    <view.CompassView
+        android:id="@+id/compass"
+        android:layout_width="fill_parent"
+        android:layout_margin="@dimen/margin"
+        android:layout_height="fill_parent"/>
+
 </LinearLayout>
 
